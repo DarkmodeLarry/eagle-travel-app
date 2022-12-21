@@ -6,7 +6,7 @@ import Map from '../components/Map'
 import { useRouter } from 'next/router'
 import { format } from 'date-fns'
 import { useState } from 'react'
-import getCenter from 'geolib/es/getCenter'
+// import getCenter from 'geolib/es/getCenter'
 
 export default function Search({ searchResults }) {
   const router = useRouter()
